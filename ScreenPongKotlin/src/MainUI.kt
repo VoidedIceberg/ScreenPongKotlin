@@ -192,8 +192,8 @@ class Pattle(var posX: Int, var posY: Int, var width: Int,var height: Int,val ba
     class Ball {
         var x = 500
         var y = 1000
-        var vX = -5
-        var vY = -5
+        var vX = -15
+        var vY = -15
         val img: BufferedImage
         var rect: Rectangle
 
